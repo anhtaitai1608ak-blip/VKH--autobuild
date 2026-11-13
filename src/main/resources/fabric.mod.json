@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "vkh_autobuild",
+  "version": "${version}",
+  "name": "VKH Client - AutoBuild",
+  "description": "Meteor addon: schematic auto builder (Litematica + Baritone) with shulker restock and automatic correction.",
+  "authors": ["VKH"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.vkh.autobuild.VKHAutoBuild"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  },
+  "suggests": {
+    "litematica": "*",
+    "baritone": "*"
+  }
+}
